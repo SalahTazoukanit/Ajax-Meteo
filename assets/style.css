@@ -1,0 +1,25 @@
+button:hover{
+    cursor:pointer ;
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: solid;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(./images/background.jpg);
+    background-position:center; 
+    background-attachment: fixed;
+    background-size: cover; 
+}
+.display{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
